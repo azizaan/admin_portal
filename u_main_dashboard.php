@@ -1,29 +1,36 @@
 <?php
 require_once 'config.php';
+
+// Memeriksa apakah ada session id yang tersimpan dalam cookie
 if(isset($_COOKIE['aan_session_id']))
 {
     $session_id=$_COOKIE['aan_session_id'];
-$result=mysqli_query($con,"Select * from session where session_id=$session_id");
-while($res=mysqli_fetch_array($result))
-{
-    $id=$res['id'];
-    $type=$res['type'];
-}
-if($type!="user")
-{
-    header("Location:landing.php");
-}
-$result=mysqli_query($con,"select * from users where id=$id");
-while($res=mysqli_fetch_array($result))
-{
-    $name=$res['username'];
-}
+    $result=mysqli_query($con,"SELECT * FROM session WHERE session_id=$session_id");
+    
+    while($res=mysqli_fetch_array($result))
+    {
+        $id=$res['id'];
+        $type=$res['type'];
+    }
+    
+    if($type!="user")
+    {
+        header("Location: landing.php");
+    }
+    
+    $result=mysqli_query($con,"SELECT * FROM users WHERE id=$id");
+    
+    while($res=mysqli_fetch_array($result))
+    {
+        $name=$res['username'];
+    }
 }
 else
 {
-    header("Location:la.php");
+    header("Location: login.php");
 }
 ?>
+
 <html>
 <head>
     <title>User Dashboard</title>
