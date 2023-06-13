@@ -37,7 +37,7 @@ if (isset($_COOKIE['aan_session_id'])) {
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Dashboard - CODETECH</title>
+    <title>BOOSTRAP - CODETECH</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -133,6 +133,7 @@ if (isset($_COOKIE['aan_session_id'])) {
             <!-- Main Content -->
             <div id="content">
 
+
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
@@ -172,23 +173,84 @@ if (isset($_COOKIE['aan_session_id'])) {
 
                 </nav>
                 <!-- End of Topbar -->
-
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
-                    <!-- Approach -->
-                    <div class="card shadow mb-4">
-                        <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">Welcome to Codetech, <?php echo $name ?></h6>
+                    <!-- Page Heading -->
+                    <h1 class="h3 mb-4 text-gray-800">BOOSTRAP</h1>
+
+                    <!-- Content Row -->
+                    <div class="row">
+
+                        <!-- Content Column -->
+                        <div class="col-lg-6 mb-4">
+
+                            <!-- Project Card Example -->
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">Introduction to BOOSTRAP 5</h6>
+                                </div>
+                                <div class="card-body">
+                                    <p>In this module, you will learn the basics of framework BOOSTRAP 5.</p>
+                                    <a href="https://www.w3schools.com/bootstrap5/index.php" class="btn btn-primary">Start Learning</a>
+                                </div>
+                            </div>
+
                         </div>
-                        <div class="card-body">
-                            <p>Selamat datang di dashboard bootcamp Anda! Bersiaplah untuk melepaskan potensi penuh Anda dan memulai perjalanan belajar yang menakjubkan.</p>
-                            <p>Di sini, Anda akan menemukan semua sumber daya dan informasi yang Anda perlukan untuk perjalanan bootcamp Anda.</p>
-                            <p>Perjalanan mungkin sulit, tetapi Anda lebih tangguh. Tetap fokus, tetap bertekad, dan kesuksesan akan menjadi milik Anda.</p>
+
+                        <div class="col-lg-6 mb-4">
+
+                            <!-- Project Card Example -->
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">boostrap 5 Containers</h6>
+                                </div>
+                                <div class="card-body">
+                                    <p>Containers are used to pad the content inside of them, and there are two container classes available.</p>
+                                    <a href="https://www.w3schools.com/bootstrap5/bootstrap_containers.php" class="btn btn-primary">Start Learning</a>
+                                </div>
+                            </div>
+
                         </div>
+
+                        <div class="col-lg-6 mb-4">
+
+                            <!-- Project Card Example -->
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">Boostrap 5 Alerts</h6>
+                                </div>
+                                <div class="card-body">
+                                    <p>Bootstrap 5 provides an easy way to create predefined alert messages.</p>
+                                    <a href="https://www.w3schools.com/bootstrap5/bootstrap_jumbotron.php" class="btn btn-primary">Start Learning</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-6 mb-4">
+
+                            <!-- Project Card Example -->
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">Bootstrap 5 Navbars</h6>
+                                </div>
+                                <div class="card-body">
+                                    <p>A navigation bar is a navigation header that is placed at the top of the page.</p>
+                                    <a href="https://www.w3schools.com/php/php_ref_array.asp" class="btn btn-primary">Start Learning</a>
+                                </div>
+                            </div>
+
+                        </div>
+
                     </div>
+                    <!-- /.row -->
 
                 </div>
+                <!-- /.container-fluid -->
+                <!-- End of Main Content -->
+
+                <!-- Begin Page Content -->
+
             </div>
 
         </div>
