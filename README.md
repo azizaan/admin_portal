@@ -6,7 +6,8 @@ Landing page bootcamp replica with login/register
 userame : admin
 password : admin
 
-  user :
+  User
+  
 username : farli
 password : farli 
 
